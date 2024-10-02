@@ -32,9 +32,9 @@ touch .env
 
     Open the file and insert this
 
-    ```bash
-    REACT_APP_BACKEND_URL=http://localhost:8000
-    ```
+```bash
+REACT_APP_BACKEND_URL=http://localhost:8000
+```
 
     where 8000 is the port by default
 
