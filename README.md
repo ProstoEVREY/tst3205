@@ -117,7 +117,7 @@ The backend is a simple Express.js server written in TypeScript that includes:
 
 ### Frontend
 
-The frontend is a React app built with TypeScript that includes:
+The frontend is a React app built with JS that includes:
 
 - **Form with Validation**: Utilizes `zod` for email and phone number validation.
 - **Axios Request Handling**: Submits the form data to the backend and handles cancellations using `AbortController`.
