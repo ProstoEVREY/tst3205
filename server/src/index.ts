@@ -27,7 +27,7 @@ app.post("/api/search", async (req: Request, res: Response) => {
     });
 
     // wait 5s
-    await wait(1000);
+    await wait(5000);
 
     res.json(foundPeople);
   } catch (err) {

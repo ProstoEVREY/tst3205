@@ -37,7 +37,7 @@ You need to make sure that the client knows the backend to knock to: for this in
 
 ### 3. Setting Up the server
 
-1. Navigate to the `server` directory:
+1. Navigate to the `server` directory (if not already there):
 
     ```bash
     cd server
@@ -60,7 +60,7 @@ You need to make sure that the client knows the backend to knock to: for this in
 
 ### 4. Setting Up the client
 
-1. Navigate to the `client` directory:
+1. Navigate to the `client` directory in a separate terminal window:
 
     ```bash
     cd client
@@ -133,5 +133,3 @@ The frontend is a React app built with TypeScript that includes:
 - **Port Conflicts**:
   - Make sure no other applications are running on ports `3000` (frontend) and `5000` (backend).
 
-- **Cross-Origin Resource Sharing (CORS)**:
-  - If you encounter CORS errors, ensure the backend has the appropriate CORS middleware enabled (`cors` package).
