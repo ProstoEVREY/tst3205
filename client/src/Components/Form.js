@@ -4,7 +4,6 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import "../Styles/form.css";
 import { post } from "../Util/axios";
-import { env } from "../Util/env";
 import { formSchema } from "../Util/zod";
 
 
@@ -20,7 +19,7 @@ export const Form = () => {
       toast.dismiss();
       try {
         formSchema.parse({email, number})
-        const data = await post(`${env.BACKEND_URL}/api/search`, {
+        const data = await post(`${process.env.REACT_APP_BACKEND_URL}/api/search`, {
           email,
           number,
         });
