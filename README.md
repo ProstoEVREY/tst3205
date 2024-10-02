@@ -31,7 +31,7 @@ You need to make sure that the client knows the backend to knock to: for this in
 
     Open the file and insert this
 
-    #### REACT_APP_BACKEND_URL=http://localhost:8000
+    REACT_APP_BACKEND_URL=http://localhost:8000
 
     where 8000 is the port by default
 
