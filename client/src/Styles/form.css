@@ -1,70 +1,83 @@
 .App {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin-top: 50px;
-  }
-  
-  .form {
-    display: flex;
-    flex-direction: column; 
-    align-items: center;    
-    margin-top: 20px;
-    max-width: 400px;      
-    margin-left: auto;     
-    margin-right: auto;    
-    padding: 20px;          
-    border: 1px solid #ccc; 
-    border-radius: 5px;     
-    background-color: #f9f9f9; 
-  }
-  
-  .form-group {
-    margin-bottom: 15px;
-    width: 100%;
-  }
-  
-  label {
-    display: block; 
-    font-weight: bold;
-    margin-bottom: 5px; 
-  }
-  
-  input {
-    padding: 10px;
-    width: 100%;   
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  button {
-    padding: 10px 15px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    width: 100%;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  
-  .error {
-    color: red;
-    margin-top: 20px;
-  }
-  
-  .response {
-    margin-top: 30px;
-    text-align: left;
-    display: inline-block;
-  }
-  
-  pre {
-    text-align: left;
-    background-color: #f5f5f5;
-    padding: 20px;
-    border-radius: 5px;
-  }
-  
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.form {
+  margin: 0 auto;
+  max-width: 400px;
+  background: #f2f2f2;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  background: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
+}
+
+.response {
+  margin-top: 30px;
+  text-align: left;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.people-list {
+  list-style: none;
+  padding: 0;
+}
+
+.person-item {
+  background: #fff;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px 0;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.person-details h3 {
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+.person-details p {
+  margin: 5px 0;
+  color: #666;
+}
